@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>EVP - Desarrollador Web</title>
+    <link rel="icon" href="./assets/evp.JPG">
+</head>
+
+<body>
+    
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>/EVP/</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#formacion" onclick="seleccionar(this)">FORMACIÓN</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <div class="redes">
+                        <a href="https://www.linkedin.com/in/erica-vanesa-porcelli-6ba57284/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </header>
+
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>ERICA VANESA PORCELLI</h2>
+                <h2>Desarrollador Web</h2>
+                <p class="descripcion">Lic en Comercialización y especialista en MKT digital.</p>
+                <a href="#portfolio">Ir a Portafolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBREMI -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="assets/foto.jpeg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, Soy <span>Vanesa Porcelli</span> </h2>
+            <h3>Desarrollador Web</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur reprehenderit voluptatibus
+                blanditiis nulla adipisci iste fuga expedita, ea exercitationem dicta, similique rem, atque soluta
+                recusandae ipsam autem. Sapiente, quo ducimus?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nam a beatae natus.</p>
+            <a href="https://www.linkedin.com/in/erica-vanesa-porcelli-6ba57284/">VER CV - LINKEDIN</a>
+        </div>
+    </section>
+
+    <!-- SECCION FORMACION -->
+    <section id="formacion">
+        <h3 class="titulo-seccion">MI FORMACION PROFESIONAL</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"> <i class="fa-solid fa-graduation-cap"></i></span>
+                <h4>LICENCIADA EN COMERCIALIZACION</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>E-COMMERCE</li>
+                    <li>MKT-DIGITAL</li>
+                </ul>
+                <p><b>ESCUELA ARGENTINA DE NEGOCIOS</b></p>
+                <P><b>2011-2015</b></P>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-pen-to-square"></i></span>
+                <h4> DESARROLLADOR WEB </h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li> HTML&CSS</li>
+                    <li> SASS</li>
+                    <li> GITHUB</li>
+                </ul>
+                <p><b>CODERHOUSE </b></p>
+                <p><b>2023 </b></p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-pen-to-square"></i></span>
+                <h4> TICMAS</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li> HTML & CSS</li>
+                    <li> JAVASCRIPT</li>
+                    <li> GITHUB</li>
+                </ul>
+                <p><b>ARGENTINA PROGRAMA </b></p>
+                <p><b>2023 </b></p>
+            </div>
+            
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-pen-to-square"></i></span>
+                <h4>ARGENTINA PROGRAMA</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li> GOBSTONES</li>
+                    <li> JAVASCRIPT</li>
+                    <li> RUBY</li>
+                </ul>
+                <p><b>#SE PROGRAMAR </b></p>
+                <p><b>2022 </b></p>
+            </div>
+        </div>
+
+
+        </div>
+    </section>
+    <section id="formacion">
+        <h3 class="titulo-seccion">HABILIDADES</h3>
+        <div class="contenedor-skills" id="skills">
+            <div class="skill">
+                <div class="info">
+                    <p> <span class="lista"> </span> <b>Html & Css </b></p>
+                    <span class="porcentaje"><b>95%</b></span>
+                </div>
+                <div class="barra">
+                    <div class="" id="html"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="info">
+                    <p> <span class="lista"> </span><b>Javascript</b></p>
+                    <span class="porcentaje"><b>80%</b></span>
+                </div>
+                <div class="barra">
+                    <div class="" id="js"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="info">
+                    <p> <span class="lista"> </span><b>Bases de Datos</b></p>
+                    <span class="porcentaje"><b>80%</b></span>
+                </div>
+                <div class="barra">
+                    <div class="" id="bd"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="info">
+                    <p> <span class="lista"> </span><b>Photoshop</b></p>
+                    <span class="porcentaje"><b>75%</b></span>
+                </div>
+                <div class="barra">
+                    <div class="" id="ps"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Mis Proyectos</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="assets/proyecto1-1.JPG" alt="">
+                <div class="info">
+                    <h4>E-COMMERCE</h4>
+                    <p>DISEÑO WEB</p>
+                    <p><a href="https://tukura-alimentos.vercel.app/">IR AL SITIO</a></p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="assets/proyecto2-1.JPG" alt="">
+                <div class="info">
+                    <h4>LANDING PAGE</h4>
+                    <p>DISEÑO WEB</p>
+                    <p><a href="https://cumples-2023.vercel.app/">IR AL SITIO</a></p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="assets/proyecto3-1.JPG" alt="">
+                <div class="info">
+                    <h4>LANDING PAGE</h4>
+                    <p>DISEÑO WEB</p>
+                    <p><a href="https://cumples-2023.vercel.app/">IR AL SITIO</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCTION C O N T A C T O -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">CONTACTÁME!</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo *" class="input-mitad">
+                    <input type="email" placeholder="Dirección de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..."
+                        class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p><span class="span_footer">/ EVP /</span>  Todos los derechos reservados - 2023</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
