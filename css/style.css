@@ -238,9 +238,10 @@ html {
 
 #formacion .fila {
   display: flex;
-  justify-content: space-between;
+  justify-content:center;
   max-width: 1150px;
   margin: 30px auto;
+  gap: 50px;
 }
 
 #formacion .fila .servicio {
