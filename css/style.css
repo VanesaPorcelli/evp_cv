@@ -16,7 +16,7 @@ html {
 
 #inicio {
   background-image: url("https://img.freepik.com/fotos-premium/escritorio-oficina-femine-accesorios-oficina-superficie-rosa-espacio-trabajo-mujeres-suculentas-velas-cosmeticos_69064-1588.jpg?w=740");
-  background-size: cover;
+  background-size:cover;
   background-position: center center;
   height: 100vh;
 }
