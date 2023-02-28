@@ -523,7 +523,7 @@ html {
   margin: auto;
   cursor: pointer;
   transition: 0.5s;
-  padding: 10px 15px !important;
+  padding: 10px 15px;
 }
 
 #contacto .btn-enviar:hover {
