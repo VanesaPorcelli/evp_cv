@@ -15,7 +15,7 @@ html {
 /* *********************/
 
 #inicio {
-  background: url("/assets/fondo-inicio.jpg");
+  background-image: url("/assets/fondo-inicio.jpg");
   background-size: cover;
   background-position: center center;
   height: 100vh;
