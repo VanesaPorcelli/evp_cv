@@ -110,7 +110,7 @@ html {
 
 #inicio .contenido .presentacion .descripcion {
   max-width: 700px;
-  margin: 25px auto;
+  margin: 10px;
   padding: 10px;
   font-size: 25px;
   text-align: center;
@@ -119,8 +119,8 @@ html {
 #inicio .contenido .presentacion a {
   text-decoration: none;
   display: inline-block;
-  margin: 25px;
-  padding: 20px 25px;
+  margin-top: 5px 5px;
+  padding: 10px;
   border: 2px solid #0f0f0f;
   border-radius: 50px;
   color: #0f0f0f;
@@ -642,3 +642,4 @@ footer a {
   color: #ff5080;
   font-size: 25px;
 }
+
